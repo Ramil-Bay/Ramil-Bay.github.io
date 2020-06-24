@@ -260,7 +260,7 @@
       .content__image {
       	flex-grow: 1;
         flex-shrink: 1;
-        background-image: url("img/cotentimg.png");
+        background-image: url("img/contentimg.png");
 	    background-repeat: no-repeat;
 	    background-size: contain;
 	    background-position: center;
