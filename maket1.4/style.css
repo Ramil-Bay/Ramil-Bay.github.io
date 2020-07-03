@@ -1,0 +1,137 @@
+@font-face {
+        font-family: TTLakes-Regular;
+        src: url(fonts/TTLakes-Regular.ttf);
+      }
+
+html, body {
+margin: 0;
+}
+
+.container {
+    font-family: "TTLakes-Regular";
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02);
+width: 320px;
+}
+
+header {
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    padding: 19px 24px;
+    align-items: center;   
+} 
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__button_close {
+    background-image: url('img/burger.svg');
+    background-repeat: no-repeat;
+    margin-right: 16px;    
+}
+
+.pages {
+    padding-left: 0;
+}
+
+.pages__list {
+    list-style: none;
+    padding: 16px 24px;
+}
+
+.pages__list .pages__link {
+    text-decoration: none;
+    color: #1B1C21;
+    font-weight: 500;    
+}
+
+.pages__list .pages__link:hover {    
+    color: #7E7E82;
+}
+
+.pages__list:hover {
+    background-image: url("img/highlight.svg");
+    background-position: left;
+    background-repeat: no-repeat;    
+}
+
+.header__button_search {
+    background-image: url('img/search.svg');
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+.footer__button_call {
+    background-image: url('img/call.svg'); 
+}
+
+.footer__button_write {
+    background-image: url('img/chat.svg');
+}
+
+.footer__button_about-us {
+    background-image: url('img/profile.svg');
+}
+
+main {
+    flex-grow: 1;
+}
+
+.footer__languages .footer__link:hover {
+    color: #7E7E82;
+}
+
+footer {
+    padding: 32px 24px;
+}
+
+.footer__button--call, 
+.footer__button--write,
+.footer__button--about-us {
+    margin-right: 16px;    
+}
+
+.button:hover {
+    transform: scale(1.2);
+    opacity: 0.8;    
+}
+
+.footer__contacts {
+    padding-bottom: 16px;
+}
+
+.footer__email {
+    padding-bottom: 12px;
+}
+
+.footer__email_adress {
+    font-weight: 500;
+}
+
+.footer__phone {
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer__languages .footer__link {
+    font-weight: 500;
+    margin-right: 7px;
+}
+
+@media(min-height: 728px) {
+    html, body, .container {
+    height: 100%;
+    }
+}
