@@ -96,9 +96,9 @@ footer {
     padding: 32px 24px;
 }
 
-.footer__button--call, 
-.footer__button--write,
-.footer__button--about-us {
+.footer__button_call, 
+.footer__button_write,
+.footer__button_about-us {
     margin-right: 16px;    
 }
 
