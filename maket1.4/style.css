@@ -16,7 +16,7 @@ box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 
 width: 320px;
 }
 
-header {
+.header {
     display: flex;
     height: 56px;
     justify-content: space-between;
