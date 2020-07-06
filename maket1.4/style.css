@@ -132,7 +132,7 @@ margin: 0;
     margin-right: 7px;
 }
 
-@media(min-height: 728px) {
+@media(min-height: 767px) {
     html, body, .container {
     height: 100%;
     }
