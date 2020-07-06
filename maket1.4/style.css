@@ -135,6 +135,6 @@ margin: 0;
 
 @media(min-height: 728px) {
     html, body, .container {
-    height: 1024px;
+    height: 100%;
     }
 }
