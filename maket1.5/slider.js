@@ -18,7 +18,7 @@ function mobileSlider() {
     slider.dataset.mobile = 'true';
   }
 
-  if (window.innerWidth > 768) {
+  if (window.innerWidth >= 768) {
     slider.dataset.mobile = 'false';
     if (slider.classList.contains('swiper-container-initialized')) {
       mySwiper.destroy();
