@@ -230,5 +230,11 @@ html {
   font-family: TTLakes-Regular;
   src: url(./fonts/TTLakes-Regular.ttf); }
 
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0; }
+
 
 /*# sourceMappingURL=style.css.map*/
